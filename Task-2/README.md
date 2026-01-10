@@ -20,7 +20,7 @@ Accept: application/json
     {
       "id": 1,
       "name": "METRO",
-      "logo_url": "https://cdn.petrushka-green.ru/logos/metro.png",
+      "logo_url": "https://petrushka-green.ru/logos/metro.png",
       "delivery_type": "scheduled",
       "delivery_time_from": "21:00",
       "delivery_time_to": "23:00",
@@ -30,7 +30,7 @@ Accept: application/json
     {
       "id": 2,
       "name": "Ашан",
-      "logo_url": "https://cdn.petrushka-green.ru/logos/ashan.png",
+      "logo_url": "https://petrushka-green.ru/logos/ashan.png",
       "delivery_type": "scheduled",
       "delivery_time_from": "18:00",
       "delivery_time_to": "20:00",
@@ -40,7 +40,7 @@ Accept: application/json
     {
       "id": 3,
       "name": "ВкусВилл",
-      "logo_url": "https://cdn.petrushka-green.ru/logos/vkusvill.png",
+      "logo_url": "https://petrushka-green.ru/logos/vkusvill.png",
       "delivery_type": "fast",
       "delivery_time_min": 20,
       "delivery_time_max": 60,
@@ -50,7 +50,7 @@ Accept: application/json
     {
       "id": 4,
       "name": "Виктория",
-      "logo_url": "https://cdn.petrushka-green.ru/logos/victoria.png",
+      "logo_url": "https://petrushka-green.ru/logos/victoria.png",
       "delivery_type": "scheduled",
       "delivery_time_from": "17:00",
       "delivery_time_to": "19:00",
