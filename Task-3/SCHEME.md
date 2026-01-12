@@ -1,16 +1,18 @@
+# Блок-схема отправки пушей
+
 ```mermaid
 flowchart TD
   User[Пользователь] --> App[Мобильное приложение]
 
-  App -->|Разрешение на пуши| Token[Push token]
+  App -->|Разрешает пуши| Token[Push token]
   Token --> Backend[Backend]
 
-  Backend -->|Хранение токена\n(user_id ↔ token)| Storage[Хранилище токенов]
+  Backend --> Storage[Хранилище токенов\n(user_id - token)]
 
   Cart[Сервис корзины] -->|Событие| Notify[Сервис уведомлений]
   Order[Сервис заказа] -->|Событие| Notify
 
-  Notify -->|Формирование текста пуша| Push[Push уведомление]
+  Notify -->|Формирует текст пуша| Push[Push уведомление]
   Push --> FCM[FCM (Android)]
   Push --> APNs[APNs (iOS)]
 
